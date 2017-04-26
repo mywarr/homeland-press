@@ -1,0 +1,22 @@
+"zh-CN":
+  plugin:
+    press: "頭條"
+  activerecord:
+    models:
+      post: "文章"
+    attributes:
+      post:
+        title: 標題
+        slug: Slug
+        body: 正文
+        summary: 摘要
+  simple_form:
+    hints:
+      post:
+        title: "請給文章起一個簡短準確的標題，注意正確的英文名詞拼寫、大小寫！"
+        slug: "文章的 URL 名稱，也可以保持為空，這樣將會用文章編號代替，例如 /posts/this-is-slug-for-use"
+        body: "用 Markdown 語法編寫文章正文"
+        summary: "如果可以的話，用一段簡短的文字描述此文的重點內容"
+    placeholders:
+      post:
+        slug: ""
